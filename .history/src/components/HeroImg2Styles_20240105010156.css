@@ -1,0 +1,6 @@
+.heading {
+  width: 100%;
+  display: grid;
+  padding: 10px;
+  text-align: center;
+}

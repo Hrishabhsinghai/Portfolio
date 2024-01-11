@@ -1,0 +1,40 @@
+.hero-img {
+  width: 100%;
+  background: black;
+  height: 60vh;
+  position: relative;
+}
+
+.hero-img {
+  content: "";
+  background: url("https://media.istockphoto.com/id/1327335584/photo/the-code-is-on-a-laptop-on-a-wooden-table-in-front-of-the-window-in-the-dark-with-a-view-of.jpg?s=1024x1024&w=is&k=20&c=aWnZVJEZG0eikDxc4QXQCi_7wckCmEIxqU0-2kdYAdM=");
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img h1 {
+  font-size: 2.4rem;
+}
+
+.hero-img p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .hero-img h1 {
+    font-size: 2rem;
+  }
+}
