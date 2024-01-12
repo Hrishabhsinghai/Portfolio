@@ -58,4 +58,7 @@
   .hero .content p {
     font-size: 1.4rem;
   }
+  .hero .repair {
+    margin-bottom: 35px;
+  }
 }
