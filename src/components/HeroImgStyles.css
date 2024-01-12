@@ -51,6 +51,10 @@
   margin: 1rem 0.2rem;
 }
 
+.hero .repair {
+  margin-bottom: 35px;
+}
+
 @media screen and (max-width: 640px) {
   .hero .content h1 {
     font-size: 3rem;
