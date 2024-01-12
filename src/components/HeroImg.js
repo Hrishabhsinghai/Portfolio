@@ -13,10 +13,12 @@ const HeroImg = () => {
       <div className="content">
         <p> HI, I 'M HRISHABH </p> <h1> React Developer. </h1>{" "}
         <div>
-          <Link to="/project" className="btn">
-            {" "}
-            Projects{" "}
-          </Link>{" "}
+          <div className="repair">
+            <Link to="/project" className="btn">
+              {" "}
+              Projects{" "}
+            </Link>{" "}
+          </div>{" "}
           <Link to="/contact" className="btn btn-light">
             {" "}
             Contact{" "}
